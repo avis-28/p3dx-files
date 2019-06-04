@@ -41,7 +41,7 @@
 	        output="screen"/>
 	
 		<!-- ros_control p3rd launch file -->
-		<!-- <include file="$(find p3dx_control)/launch/control.launch" /> -->
+		<include file="$(find p3dx_control)/launch/control.launch" />
 	</group>
 
 </launch>
